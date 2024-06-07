@@ -55,5 +55,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 /* helper functions */
 int tree_height(const binary_tree_t *tree);
+int find_depth(const binary_tree_t *tree);
+int check_is_perfect(const binary_tree_t *tree, int depth, int level);
 
 #endif /* BINARY_TREES_H */
